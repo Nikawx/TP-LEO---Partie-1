@@ -25,12 +25,12 @@ Docker Status Enabled & Active
 # 🌞 Utiliser la commande docker run
 
 ```
-docker run --name web -d -v /path/to/html:/usr/share/nginx/html -p 9999:80 nginx
+docker run --name web -d -v /home/ClefPublique/html:/usr/share/nginx/html -p 9999:9999 nginx
 ```
 
 
 ```
-root@TEST:/home/ClePublique# curl localhost:80
+root@TEST:/home/ClePublique# curl localhost:9999
 
 <!DOCTYPE html>
 <html>
